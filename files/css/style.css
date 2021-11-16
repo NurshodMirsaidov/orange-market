@@ -1,0 +1,293 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 7px 0;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 33px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 40px #cec7c0;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img{
+    margin-right: 22px;
+}
+
+.nav-logo p{
+    color: #dd4400;
+    font-family: Monserrat400;
+    font-size: 16px;
+}
+
+.nav-menu li a{
+    color: #4e4e4e;
+    font-size: 16px;
+    font-family: Monserrat400;
+}
+
+.nav-menu li a:hover{
+    color: #dd4400;
+}
+
+header{
+    background-color: #f8f8f8;
+}
+
+.header-back{
+    background: url('../images/trening-po-rabote-s-klientami.jpg') no-repeat center center / cover; 
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-back h2{
+    font-size: 40px;
+    font-family: Monserrat400;
+    color: #d30b0b;
+}
+
+.main-info{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-item{
+    width: 255px;
+    box-shadow: 0 0 15px #dd4400;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.main-item p{
+    align-items: center;
+    margin-bottom: 46px;
+    font-size: 18px;
+    color: #dd4400;
+    font-family: Monserrat700;
+    width: 84px;
+    margin-right: 20px;
+    
+}
+
+.main-item img:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.main-item img:nth-child(3){
+    margin-bottom: 24px;
+}
+
+.main-item a{
+    padding: 14px 50px;
+    background-color: #dd4400;
+    color: #fff;
+    font-size: 16px;
+    font-family: Monserrat400;
+    transition: all .2s;
+}
+
+.main-item a:hover{
+    background-color: #d30b0b;
+}
+
+main{
+    margin: 50px 0 103px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    width: 730px;
+    height: 375px;
+    padding-left: 10px;
+   
+}
+
+.right{
+    width: 252px;
+    height: 390px;
+    margin-left: 115px;
+    padding-right: 20px;
+    
+    
+}
+.asd{
+    padding-top: 58px;  
+    padding-bottom: 36px; 
+}
+
+.zxc{
+    padding-bottom: 40px; 
+}
+.vbn{
+padding-right: 36px;
+
+}
+
+.right h3{
+    color: #5e5e5e;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-bottom: 58px;
+}
+
+.vbn h3{
+    color: #5e5e5e;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.vbn p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.tyu{
+    line-height: 24px;
+}
+
+.qaz{
+    display: flex;
+    padding-bottom: 15px;
+    margin-right: 7px;
+}
+
+.qaz h4{
+    padding-left: 30px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dd4400;
+    
+
+}
+
+.plm a{
+    padding: 14px 50px;
+    background-color: #dd4400;
+    color: #fff;
+    font-size: 16px;
+    font-family: Monserrat400;
+    transition: all .2s;
+    width: 200px;
+    height: 25px; 
+    text-align: center;
+} 
+
+.left{
+    margin-bottom: 100px;
+}
+
+.plm a:hover{
+    background-color: #d30b0b;
+}
+
+.fgh{
+    padding-bottom: 56px;
+}
+
+
+
+footer{
+    background-color: #dd4400;
+    height: 250px;
+}
+    
+.bosh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oyoq p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.oyoq h3{
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 32px;
+}
+
+.dfg{
+    font-size: 7px;
+}
+
+.nuy{
+    color: #fff;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 68px;
+    padding-left: 24px;
+
+
+}
+
+.rtr{
+    
+    padding-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+.muy{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-left: 15px;
+    
+}
+.yuy{
+    color: #fff;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 68px;
+    
+}
+.oyoq{
+    padding-right: 540px;
+}
